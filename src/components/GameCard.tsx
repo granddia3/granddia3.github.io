@@ -28,9 +28,12 @@ export default function GameCard({ game }: GameCardProps) {
           </span>
         </div>
         <div className="absolute inset-0 bg-black/0 group-hover:bg-black/20 transition-colors flex items-center justify-center opacity-0 group-hover:opacity-100">
-          <div className="bg-[#00FF00] border-2 border-black p-3 shadow-[4px_4px_0px_0px_rgba(0,0,0,1)]">
+          <Link 
+            to={`/play/${game.id}`}
+            className="bg-[#00FF00] border-2 border-black p-3 shadow-[4px_4px_0px_0px_rgba(0,0,0,1)] hover:bg-[#00E600] active:translate-x-[2px] active:translate-y-[2px] active:shadow-none transition-all cursor-pointer"
+          >
             <Play className="w-6 h-6 fill-black" />
-          </div>
+          </Link>
         </div>
       </div>
       <div className="p-4 flex flex-col flex-grow">
