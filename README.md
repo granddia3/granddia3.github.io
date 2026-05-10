@@ -32,7 +32,12 @@ The easiest way to put your site online:
 ## Why was my page blank (404)?
 GitHub Pages is a static host. It cannot read your `.tsx` source files directly. You must "build" them into a `dist` folder containing plain HTML/JS. The `npm run deploy` command I added handles this whole process for you.
 
-## Technical Info
+## Common Errors
+
+### "MIME type of 'application/octet-stream'"
+If you see this error, it means the browser is trying to load a `.tsx` file (source code) as if it were a regular JavaScript file.
+- **In Development**: This usually means the Vite dev server isn't running or the `index.html` is being served by a plain server that doesn't understand React/TypeScript. Always use `npm run dev`.
+- **On GitHub**: This happens if you try to open the `index.html` from your repository file list. GitHub Pages can only serve the **built** version of your site. You must run `npm run deploy` and then view the site via the URL provided in your repository's "Pages" settings.
 
 - Framework: React 18+ with Vite
 - Styling: Tailwind CSS
