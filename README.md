@@ -13,24 +13,24 @@ A high-performance portal for unblocked educational games and tools.
    npm run dev
    ```
 
-## GitHub Pages Deployment
+## Deployment to GitHub Pages
 
-If you are seeing a blank page on GitHub, follow these steps:
+The easiest way to put your site online:
 
-1. **Build the project**:
+1. **Push your code to GitHub** (if you haven't already).
+2. **Run the deploy command** in your terminal:
    ```bash
-   npm run build
+   npm run deploy
    ```
-2. **Deploy the `dist` folder**: Use a tool like `gh-pages` or configure GitHub Actions to deploy the content of the `dist` folder.
-3. **Base Path**: If your repository name is not exactly the domain root (e.g., `username.github.io/repo/`), make sure to update the `base` in `vite.config.ts`:
-   ```ts
-   // vite.config.ts
-   export default defineConfig({
-     base: '/your-repo-name/',
-     // ...
-   });
-   ```
-   *Note: I have currently set it to `./` which works for most relative paths.*
+   *Note: This will build the project and create a `gh-pages` branch.*
+3. **Activate the branch**:
+   - Go to your Repo on GitHub.
+   - Settings > Pages.
+   - Set the **Branch** to `gh-pages` and folder to `/(root)`.
+   - Save.
+
+## Why was my page blank (404)?
+GitHub Pages is a static host. It cannot read your `.tsx` source files directly. You must "build" them into a `dist` folder containing plain HTML/JS. The `npm run deploy` command I added handles this whole process for you.
 
 ## Technical Info
 
