@@ -3,7 +3,7 @@ import { Bot, X, Send, MinusCircle, MessageCircle, Image as ImageIcon } from 'lu
 import { motion, AnimatePresence } from 'motion/react';
 import ReactMarkdown from 'react-markdown';
 import remarkGfm from 'remark-gfm';
-import { chat } from '../services/gemini';
+import { ai, ACADEMIC_SYSTEM_PROMPT } from '../services/gemini';
 
 interface Message {
   role: 'user' | 'model';
@@ -15,7 +15,7 @@ export default function AIChat() {
   const [isOpen, setIsOpen] = useState(false);
   const [input, setInput] = useState('');
   const [messages, setMessages] = useState<Message[]>([
-    { role: 'model', text: 'Yo! I\'m the Classroom Analyst. Upload a pic of your homework or worksheets and let\'s solve them.' }
+    { role: 'model', text: 'Yo! I\'m the Academic Analyst. I can solve homework from text or images. Hit me with your math, science, or history questions.' }
   ]);
   const [isLoading, setIsLoading] = useState(false);
   const [selectedImage, setSelectedImage] = useState<File | null>(null);
@@ -63,7 +63,7 @@ export default function AIChat() {
     
     setMessages(prev => [...prev, { 
       role: 'user', 
-      text: userMessage || (currentImage ? '[Image Analysis Requested]' : ''), 
+      text: userMessage || (currentImage ? '[Analysis Request]' : ''), 
       image: currentPreview || undefined 
     }]);
     setIsLoading(true);
@@ -78,14 +78,36 @@ export default function AIChat() {
         parts.push({ text: userMessage });
       }
 
-      const response = await chat.sendMessage({
-        message: parts.length > 1 ? { parts } : parts[0]
+      // Manual history management
+      const history = messages.slice(-10).map(m => ({
+        role: m.role,
+        parts: [{ text: m.text }]
+      }));
+
+      const response = await ai.models.generateContent({
+        model: "gemini-3.1-pro-preview",
+        contents: [
+          ...history,
+          { role: 'user', parts }
+        ],
+        config: {
+          systemInstruction: ACADEMIC_SYSTEM_PROMPT,
+          temperature: 0.2,
+        }
       });
       
       setMessages(prev => [...prev, { role: 'model', text: response.text || 'My brain glitched. Try again?' }]);
-    } catch (error) {
+    } catch (error: any) {
       console.error('AI Error:', error);
-      setMessages(prev => [...prev, { role: 'model', text: 'Connection lost. I might be blocked by the firewall...' }]);
+      let errorMsg = 'Connection lost. I might be blocked by the firewall or rate-limited.';
+      
+      if (error?.message?.includes('API key')) {
+        errorMsg = 'AI Configuration Error: Invalid or missing API key.';
+      } else if (error?.status === 429) {
+        errorMsg = 'Rate limit reached. Please wait a moment.';
+      }
+
+      setMessages(prev => [...prev, { role: 'model', text: errorMsg }]);
     } finally {
       setIsLoading(false);
     }
