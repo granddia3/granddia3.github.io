@@ -10,8 +10,8 @@ export interface Game {
 export const games: Game[] = [
   {
     id: 'game-1',
-    title: 'Arcade Classic',
-    description: 'A fast-paced retro experience with high-energy gameplay.',
+    title: 'tribals',
+    description: '',
     url: 'https://script.google.com/macros/s/AKfycbyQAmL7_9B9SGFKb9xwOh661dzn-kzNjuLwyDPSg0hY6WD79s2lwAny9uHhvRGRDqLq/exec',
     thumbnail: 'https://picsum.photos/seed/arcade/600/400',
     category: 'Action'

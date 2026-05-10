@@ -37,9 +37,11 @@ export default function GameCard({ game }: GameCardProps) {
         <h3 className="font-mono font-black text-lg uppercase mb-1 leading-none">
           {game.title}
         </h3>
-        <p className="text-sm text-neutral-600 line-clamp-2 mb-4 leading-snug">
-          {game.description}
-        </p>
+        {game.description && (
+          <p className="text-sm text-neutral-600 line-clamp-2 mb-4 leading-snug">
+            {game.description}
+          </p>
+        )}
         <div className="mt-auto">
           <Link 
             to={`/play/${game.id}`}

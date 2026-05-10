@@ -1,5 +1,5 @@
 import { Link } from 'react-router-dom';
-import { Gamepad2 } from 'lucide-react';
+import { School } from 'lucide-react';
 
 export default function Header() {
   return (
@@ -7,14 +7,14 @@ export default function Header() {
       <div className="max-w-7xl mx-auto px-4 h-16 flex items-center justify-between">
         <Link to="/" className="flex items-center gap-2 group">
           <div className="bg-black p-1 transition-transform group-hover:rotate-12">
-            <Gamepad2 className="text-white w-6 h-6" />
+            <School className="text-white w-6 h-6" />
           </div>
           <span className="font-mono font-black text-xl tracking-tighter uppercase">
-            Classroom<span className="text-neutral-400">.</span>Unblocked
+            Classroom
           </span>
         </Link>
         <nav className="hidden md:flex items-center gap-6">
-          <Link to="/" className="font-mono text-sm font-bold hover:underline underline-offset-4">GAMES</Link>
+          <Link to="/" className="font-mono text-sm font-bold hover:underline underline-offset-4 tracking-tighter">MADE BY T</Link>
         </nav>
       </div>
     </header>

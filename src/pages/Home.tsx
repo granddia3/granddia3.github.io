@@ -29,7 +29,7 @@ export default function Home() {
 
       <footer className="mt-32 pt-16 border-t-2 border-black/5 flex flex-col md:flex-row items-center justify-between gap-8 pb-12 opacity-50">
         <div className="font-mono text-[10px] font-bold uppercase tracking-widest">
-          &copy; 2024 Classroom Unblocked Engineering
+          &copy; 2024 Classroom
         </div>
         <div className="flex gap-8">
            <a href="#" className="font-mono text-[10px] font-bold uppercase hover:text-black">Privacy_Protocol</a>
