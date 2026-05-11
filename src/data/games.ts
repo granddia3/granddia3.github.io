@@ -21,7 +21,7 @@ export const games: Game[] = [
     title: 'Rocket goal',
     description: '',
     url: 'https://script.google.com/macros/s/AKfycbybZkVPGyvHUOZbwrJSn5fRQIFcGpoIEhp0r-yq2GWRtE_1G7YzP4t8kPZRfp6tutUN/exec',
-    thumbnail: 'https://picsum.photos/seed/logic/600/400',
+    thumbnail: 'https://play-lh.googleusercontent.com/VFwCWELna7i6okl299W0e1H-0moEvVfT9N2M9moaikhCTcEDjUg3hE1mkSlm3ZezfLPi4ppMcStIhjWUustesg=w526-h296-rw',
     category: 'Puzzle'
   },
   {
@@ -29,7 +29,7 @@ export const games: Game[] = [
     title: 'Assault Bots(NOT WORKING)',
     description: '',
     url: 'https://script.google.com/macros/s/AKfycbz5GtoRAR-e_NYMEGdV33FLU03F3DlGqW34qEkkEzGC5D8e7rvDjJs4S11jaH5_J_z7/exec',
-    thumbnail: 'https://img.craiyon.com/2026-05-11/p4enqAwJQAOoXs4TOVu_Iw.webp',
+    thumbnail: 'https://picsum.photos/seed/strategy/600/400',
     category: 'Strategy'
   },
   {

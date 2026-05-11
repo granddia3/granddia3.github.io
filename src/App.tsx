@@ -54,9 +54,6 @@ export default function App() {
               Submit
             </button>
           </form>
-          <p className="mt-4 text-center text-xs text-slate-500">
-            Hint: set `VITE_ACCESS_CODE` in `.env` or change `ACCESS_CODE` in `src/App.tsx`.
-          </p>
         </div>
       </div>
     );
