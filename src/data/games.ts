@@ -68,8 +68,8 @@ export const games: Game[] = [
     id: 'game-9',
     title: 'Soccer Random',
     description: '',
-    url: 'src="https://mc0825.github.io/g26/class-511',
-    thumbnail: 'https://play.google.com/store/apps/details?id=com.twoplayergames.soccerrandom',
+    url: 'https://mc0825.github.io/g26/class-511',
+    thumbnail: 'https://play-lh.googleusercontent.com/G1PIlb6HWKSaDre0XpUcmKGps9T4iamsSlwrogB3EJzYv4bz0M2am4D17MtGzndaOOU=w240-h480-rw',
     category: 'Fast Paced'  
   }
 ];
