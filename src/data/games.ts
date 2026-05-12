@@ -75,7 +75,7 @@ export const games: Game[] = [
   {
     id: 'game-9',
     title: 'Bitlife',
-    description: '',
+    description: 'Might not work',
     url: 'https://ubg365.github.io/bitlife-life-simulator/play.html',
     thumbnail: 'https://i.ytimg.com/vi/WUTrv--kZtI/maxresdefault.jpg',
     category: 'kids'  
