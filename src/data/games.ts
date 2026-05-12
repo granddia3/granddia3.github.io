@@ -87,5 +87,38 @@ export const games: Game[] = [
     url: 'https://mc0825.github.io/g/class-811',
     thumbnail: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSE-WsAiFSXWoWlHvWGYm4xNQysU_kK39VvcRz54bY9a1mdBapeDJne6gevddjqVG_5qhvQZIfZx3POJnNa6sJ-fBbEVW-oUY7-Rv27LwQ&s=10',
     category: 'Fast Paced'
+
+  },
+  {
+    id: 'game-11',
+    title: 'Minecraft 1.8',
+    description: '',
+    url: 'https://granddia2.github.io/minecraft18.html',
+    thumbnail: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ3i6T2Z3GQtOp-O6IC1qtggAoP3_-vm0RsPw&s',
+    category: 'Creative'
+  },
+  {
+    id: 'game-12',
+    title: 'OvO',
+    description: '',
+    url: 'https://mc0825.github.io/g5/class-456',
+    thumbnail: 'https://www.coolmathgames.com/sites/default/files/styles/blog_node_image/public/2021-03/Screen%20Shot%202021-03-19%20at%202.45.51%20PM.png.webp?itok=v01_UVn5',
+    category: 'Platformer'
+  },
+  {
+    id: 'game-13',
+    title: 'Basket Random',
+    description: '',
+    url: 'https://mc0825.github.io/g5/class-456',
+    thumbnail: 'https://www.coolmathgames.com/sites/default/files/styles/blog_node_image/public/2021-03/Screen%20Shot%202021-03-19%20at%202.45.51%20PM.png.webp?itok=v01_UVn5',
+    category: 'Platformer'
+  },
+  {
+    id: 'game-14',
+    title: 'Smash Karts',
+    description: '',
+    url: 'https://script.google.com/macros/s/AKfycbyE1C_kxeomVoOLjpaXc2uAI7JdNgVhdQdePTZu9Sizwzj_imhaWnNmPSXm4w1v-SFs/exec',
+    thumbnail: 'https://smashkarts.io/images/SmashKartsPoster.jpg',
+    category: 'Shooter'
   }
 ];
