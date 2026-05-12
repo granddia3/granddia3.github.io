@@ -36,7 +36,8 @@ export const games: Game[] = [
     id: 'game-4',
     title: 'Tag',
     description: '',
-    url: 'https://mc0825.github.io/g69/class-633/',https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRqnv5dEDOurGtf2ftRLZDASTNMHsTCh8eDhg&s    thumbnail: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRqnv5dEDOurGtf2ftRLZDASTNMHsTCh8eDhg&s',
+    url: 'https://mc0825.github.io/g69/class-633/',
+    thumbnail: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRqnv5dEDOurGtf2ftRLZDASTNMHsTCh8eDhg&s',
     category: 'Multiplayer'
   },
   {
