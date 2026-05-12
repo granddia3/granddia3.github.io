@@ -63,5 +63,21 @@ export const games: Game[] = [
     url: 'https://mc0825.github.io/g66/class-847/',
     thumbnail: 'https://img.poki-cdn.com/cdn-cgi/image/q=78,scq=50,width=1200,height=1200,fit=cover,f=png/966cec3b19cedf7dd72f93419f13268c/animals-volleyball-logo.png',
     category: 'Sports'
+  },
+  {
+    id: 'game-8',
+    title: 'Wrassling',
+    description: '',
+    url: 'https://mc0825.github.io/g69/class-651',
+    thumbnail: 'https://img.poki-cdn.com/cdn-cgi/image/q=78,scq=50,width=1200,height=1200,fit=cover,f=png/f1b3c828-7af9-4e13-9f5c-b2e88f335bdf/wrassling.png',
+    category: 'Multiplayer'
+  },
+  {
+    id: 'game-9',
+    title: 'Minecraft 1.8',
+    description: '',
+    url: 'https://granddia2.github.io/minecraft18.html',
+    thumbnail: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ3i6T2Z3GQtOp-O6IC1qtggAoP3_-vm0RsPw&s',
+    category: 'Creative'
   }
 ];
