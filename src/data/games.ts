@@ -65,7 +65,7 @@ export const games: Game[] = [
     category: 'Multiplayer'
   },
   {
-    id: 'game-9',
+    id: 'game-8',
     title: 'Soccer Random',
     description: '',
     url: 'https://mc0825.github.io/g26/class-511',
@@ -73,7 +73,7 @@ export const games: Game[] = [
     category: 'Fast Paced'  
   },
   {
-    id: 'game-10',
+    id: 'game-9',
     title: 'Bitlife',
     description: '',
     url: 'https://ubg365.github.io/bitlife-life-simulator/play.html',
