@@ -122,7 +122,7 @@ export const games: Game[] = [
     category: 'Shooter'
   },
   {
-    id: 'game-14',
+    id: 'game-15',
     title: 'Leader Strike',
     description: '',
     url: 'https://inkyedu118.github.io/g97/class-542',
