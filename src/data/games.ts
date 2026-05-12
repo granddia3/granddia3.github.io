@@ -18,7 +18,7 @@ export const games: Game[] = [
   },
   {
     id: 'game-2',
-    title: 'Assault Bots(NOT WORKING ON CHROMEBOOKS)',
+    title: 'Assault Bots (IBoss block)',
     description: '',
     url: 'https://script.google.com/macros/s/AKfycbz5GtoRAR-e_NYMEGdV33FLU03F3DlGqW34qEkkEzGC5D8e7rvDjJs4S11jaH5_J_z7/exec',
     thumbnail: 'https://img.craiyon.com/2026-05-11/p4enqAwJQAOoXs4TOVu_Iw.webp',
@@ -26,7 +26,7 @@ export const games: Game[] = [
   },
   {
     id: 'game-3',
-    title: 'Bloxd(NOT WORKING ON CHROMEBOOKS)',
+    title: 'Bloxd (IBoss block)',
     description: '',
     url: 'https://script.google.com/macros/s/AKfycbwAsvXTh7XurBCTIbcTw-5reuXukTR533fvSlll-toib_7SG_JYklsitXLgSu9mLIolbA/exec',
     thumbnail: 'https://img.craiyon.com/2026-05-11/p4enqAwJQAOoXs4TOVu_Iw.webp',
@@ -75,9 +75,9 @@ export const games: Game[] = [
   {
     id: 'game-9',
     title: 'Bitlife',
-    description: 'Might not work',
+    description: '',
     url: 'https://ubg365.github.io/bitlife-life-simulator/play.html',
     thumbnail: 'https://i.ytimg.com/vi/WUTrv--kZtI/maxresdefault.jpg',
-    category: 'kids'
+    category: 'Fun'
   }
 ];
