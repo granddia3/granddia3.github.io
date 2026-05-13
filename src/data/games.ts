@@ -149,7 +149,15 @@ export const games: Game[] = [
     title: 'Five Nights At Epsteins',
     description: '',
     url: 'https://freedomgamingzone.github.io/five-nights-at-epsteins/',
-    thumbnail: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSBc_knTaEJfOEGjJPNFjIsNG5Mk95b6ua-vw&s',
+    thumbnail: 'https://assets1.cbsnewsstatic.com/hub/i/r/2026/04/03/645aef00-55f1-42be-bbbe-bf28a324d9e2/thumbnail/1280x720/1d1a0fc884f8bf7fb07a38e5ad410c05/e68b6374bfe38c8de8ccbd2be30cd9e2.jpg',
     category: 'Horror'
+  },
+  {
+    id: 'game-19',
+    title: 'Homework Helper',
+    description: '',
+    url: 'https://genizymath.github.io/games/chat-bot-ai-ai-gpt/',
+    thumbnail: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSegUUBOgagwjsPQMNPDAN_3iRVThIOm3EECQ&s',
+    category: 'AI'
   }
 ];
