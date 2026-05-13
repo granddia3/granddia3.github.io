@@ -136,5 +136,13 @@ export const games: Game[] = [
     url: 'https://script.google.com/macros/s/AKfycbxcouwzwIrULxhM_6KgC3GOg7xZ7C0A3s4weEUQEtWdwb08Ma3PhJuLZVONJXKJG9DKaA/exec',
     thumbnail: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSqnHES0vMhKA4ZN9RoVVmLKs__68g8gOUZOw&s',
     category: 'Party'
+  },
+  {
+    id: 'game-17',
+    title: 'Tanuki Sunset',
+    description: '',
+    url: 'https://mc0825.github.io/g26/class-488/',
+    thumbnail: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSBc_knTaEJfOEGjJPNFjIsNG5Mk95b6ua-vw&s',
+    category: 'Driving'
   }
 ];
