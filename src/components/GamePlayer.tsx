@@ -64,7 +64,6 @@ export default function GamePlayer() {
         ref={containerRef}
         className="brutalist-card bg-black flex flex-col aspect-[16/9] w-full overflow-hidden relative"
       >
-        </div>
         <iframe
           key={key}
           src={game.url}
