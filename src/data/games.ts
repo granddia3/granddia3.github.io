@@ -156,7 +156,7 @@ export const games: Game[] = [
     id: 'game-19',
     title: 'Homework Helper',
     description: '',
-    url: 'https://genizymath.github.io/games/chat-bot-ai-ai-gpt/',
+    url: 'https://genizymath.github.io/iframe/253-update.html',
     thumbnail: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSegUUBOgagwjsPQMNPDAN_3iRVThIOm3EECQ&s',
     category: 'AI'
   }
