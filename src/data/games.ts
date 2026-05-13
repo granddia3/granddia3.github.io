@@ -1,4 +1,4 @@
-export interface Game {
+    export interface Game {
   id: string;
   title: string;
   description: string;
@@ -144,5 +144,12 @@ export const games: Game[] = [
     url: 'https://mc0825.github.io/g26/class-488/',
     thumbnail: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSBc_knTaEJfOEGjJPNFjIsNG5Mk95b6ua-vw&s',
     category: 'Driving'
-  }
+  },
+  {
+    id: 'game-18',
+    title: 'Five Nights At Epsteins',
+    description: '',
+    url: 'https://freedomgamingzone.github.io/five-nights-at-epsteins/',
+    thumbnail: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSBc_knTaEJfOEGjJPNFjIsNG5Mk95b6ua-vw&s',
+    category: 'Horror'
 ];
