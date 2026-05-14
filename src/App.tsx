@@ -1,6 +1,5 @@
 import { FormEvent, useEffect, useState } from 'react';
 import { HashRouter as Router, Routes, Route } from 'react-router-dom';
-import Header from './components/Header';
 import Home from './pages/Home';
 import GamePlayer from './components/GamePlayer';
 import { motion, AnimatePresence } from 'motion/react';
