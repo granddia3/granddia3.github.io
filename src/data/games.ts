@@ -18,22 +18,6 @@ export const games: Game[] = [
   },
   {
     id: 'game-2',
-    title: 'Assault Bots (IBoss block)',
-    description: '',
-    url: 'https://script.google.com/macros/s/AKfycbz5GtoRAR-e_NYMEGdV33FLU03F3DlGqW34qEkkEzGC5D8e7rvDjJs4S11jaH5_J_z7/exec',
-    thumbnail: 'https://img.craiyon.com/2026-05-11/p4enqAwJQAOoXs4TOVu_Iw.webp',
-    category: 'Strategy'
-  },
-  {
-    id: 'game-3',
-    title: 'Bloxd (IBoss block)',
-    description: '',
-    url: 'https://script.google.com/macros/s/AKfycbwAsvXTh7XurBCTIbcTw-5reuXukTR533fvSlll-toib_7SG_JYklsitXLgSu9mLIolbA/exec',
-    thumbnail: 'https://img.craiyon.com/2026-05-11/p4enqAwJQAOoXs4TOVu_Iw.webp',
-    category: 'Adventure'
-  },
-  {
-    id: 'game-4',
     title: 'Tag',
     description: '',
     url: 'https://mc0825.github.io/g69/class-633/',
@@ -41,7 +25,7 @@ export const games: Game[] = [
     category: 'Multiplayer'
   },
   {
-    id: 'game-5',
+    id: 'game-3',
     title: 'Getaway Shootout',
     description: '',
     url: 'https://mc0825.github.io/g9/class-479/',
@@ -49,7 +33,7 @@ export const games: Game[] = [
     category: 'Multiplayer'
   },
   {
-    id: 'game-6',
+    id: 'game-4',
     title: 'Animals Volleyball',
     description: '',
     url: 'https://mc0825.github.io/g66/class-847/',
@@ -57,7 +41,7 @@ export const games: Game[] = [
     category: 'Sports'
   },
   {
-    id: 'game-7',
+    id: 'game-5',
     title: 'Wrassling',
     description: '',
     url: 'https://mc0825.github.io/g69/class-651',
@@ -65,7 +49,7 @@ export const games: Game[] = [
     category: 'Multiplayer'
   },
   {
-    id: 'game-8',
+    id: 'game-6',
     title: 'Soccer Random',
     description: '',
     url: 'https://mc0825.github.io/g26/class-511',
@@ -73,7 +57,7 @@ export const games: Game[] = [
     category: 'Fast Paced'
   },
   {
-    id: 'game-9',
+    id: 'game-7',
     title: 'Bitlife',
     description: '',
     url: 'https://ubg365.github.io/bitlife-life-simulator/play.html',
@@ -81,7 +65,7 @@ export const games: Game[] = [
     category: 'Fun'
   },
   {
-    id: 'game-10',
+    id: 'game-8',
     title: 'Volley Random',
     description: '',
     url: 'https://mc0825.github.io/g/class-811',
@@ -89,7 +73,7 @@ export const games: Game[] = [
     category: 'Fast Paced'
   },
   {
-    id: 'game-11',
+    id: 'game-9',
     title: 'Minecraft 1.8',
     description: '',
     url: 'https://granddia2.github.io/minecraft18.html',
@@ -97,7 +81,7 @@ export const games: Game[] = [
     category: 'Creative'
   },
   {
-    id: 'game-12',
+    id: 'game-10',
     title: 'OvO',
     description: '',
     url: 'https://mc0825.github.io/g5/class-456',
@@ -105,7 +89,7 @@ export const games: Game[] = [
     category: 'Platformer'
   },
   {
-    id: 'game-13',
+    id: 'game-11',
     title: 'Basket Random',
     description: '',
     url: 'https://mc0825.github.io/g5/class-456',
@@ -113,7 +97,7 @@ export const games: Game[] = [
     category: 'Platformer'
   },
   {
-    id: 'game-14',
+    id: 'game-12',
     title: 'Smash Karts',
     description: '',
     url: 'https://script.google.com/macros/s/AKfycbyE1C_kxeomVoOLjpaXc2uAI7JdNgVhdQdePTZu9Sizwzj_imhaWnNmPSXm4w1v-SFs/exec',
@@ -121,7 +105,7 @@ export const games: Game[] = [
     category: 'Shooter'
   },
   {
-    id: 'game-15',
+    id: 'game-13',
     title: 'Leader Strike',
     description: '',
     url: 'https://inkyedu118.github.io/g97/class-542',
@@ -129,7 +113,7 @@ export const games: Game[] = [
     category: 'Shooter'
   },
   {
-    id: 'game-16',
+    id: 'game-14',
     title: 'Imposter',
     description: '',
     url: 'https://script.google.com/macros/s/AKfycbxcouwzwIrULxhM_6KgC3GOg7xZ7C0A3s4weEUQEtWdwb08Ma3PhJuLZVONJXKJG9DKaA/exec',
@@ -137,7 +121,7 @@ export const games: Game[] = [
     category: 'Party'
   },
   {
-    id: 'game-17',
+    id: 'game-15',
     title: 'Tanuki Sunset',
     description: '',
     url: 'https://mc0825.github.io/g26/class-488/',
@@ -145,7 +129,7 @@ export const games: Game[] = [
     category: 'Driving'
   },
   {
-    id: 'game-18',
+    id: 'game-16',
     title: 'Five Nights At Epsteins',
     description: '',
     url: 'https://freedomgamingzone.github.io/five-nights-at-epsteins/',
@@ -153,7 +137,7 @@ export const games: Game[] = [
     category: 'Horror'
   },
   {
-    id: 'game-19',
+    id: 'game-17',
     title: 'Homework Helper',
     description: '',
     url: 'https://genizymath.github.io/iframe/253-update.html',
