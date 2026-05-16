@@ -11,7 +11,7 @@ export const games: Game[] = [
   {
     id: 'game-1',
     title: 'Rocket goal',
-    description: '',
+    description: 'Fun to play with your friends.',
     url: 'https://script.google.com/macros/s/AKfycbybZkVPGyvHUOZbwrJSn5fRQIFcGpoIEhp0r-yq2GWRtE_1G7YzP4t8kPZRfp6tutUN/exec',
     thumbnail: 'https://play-lh.googleusercontent.com/VFwCWELna7i6okl299W0e1H-0moEvVfT9N2M9moaikhCTcEDjUg3hE1mkSlm3ZezfLPi4ppMcStIhjWUustesg=w526-h296-rw',
     category: 'Puzzle'
@@ -19,7 +19,7 @@ export const games: Game[] = [
   {
     id: 'game-2',
     title: 'Tag',
-    description: '',
+    description: 'Fun to play with your friends.',
     url: 'https://mc0825.github.io/g69/class-633/',
     thumbnail: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRqnv5dEDOurGtf2ftRLZDASTNMHsTCh8eDhg&s',
     category: 'Multiplayer'
@@ -27,7 +27,7 @@ export const games: Game[] = [
   {
     id: 'game-3',
     title: 'Getaway Shootout',
-    description: '',
+    description: 'Fun to play with your friend.',
     url: 'https://mc0825.github.io/g9/class-479/',
     thumbnail: 'https://getawayshootoutonline.github.io/images/getaway-shootout.png',
     category: 'Multiplayer'
@@ -35,7 +35,7 @@ export const games: Game[] = [
   {
     id: 'game-4',
     title: 'Animals Volleyball',
-    description: '',
+    description: 'Probably the most fun game, also can play with friends.',
     url: 'https://mc0825.github.io/g66/class-847/',
     thumbnail: 'https://img.poki-cdn.com/cdn-cgi/image/q=78,scq=50,width=1200,height=1200,fit=cover,f=png/966cec3b19cedf7dd72f93419f13268c/animals-volleyball-logo.png',
     category: 'Sports'
@@ -43,7 +43,7 @@ export const games: Game[] = [
   {
     id: 'game-5',
     title: 'Wrassling',
-    description: '',
+    description: 'Fun to play with your friends.',
     url: 'https://mc0825.github.io/g69/class-651',
     thumbnail: 'https://img.poki-cdn.com/cdn-cgi/image/q=78,scq=50,width=1200,height=1200,fit=cover,f=png/f1b3c828-7af9-4e13-9f5c-b2e88f335bdf/wrassling.png',
     category: 'Multiplayer'
@@ -51,7 +51,7 @@ export const games: Game[] = [
   {
     id: 'game-6',
     title: 'Soccer Random',
-    description: '',
+    description: 'Fun to play with your friends.',
     url: 'https://mc0825.github.io/g26/class-511',
     thumbnail: 'https://play-lh.googleusercontent.com/G1PIlb6HWKSaDre0XpUcmKGps9T4iamsSlwrogB3EJzYv4bz0M2am4D17MtGzndaOOU=w240-h480-rw',
     category: 'Fast Paced'
@@ -59,15 +59,15 @@ export const games: Game[] = [
   {
     id: 'game-7',
     title: 'Bitlife',
-    description: '',
+    description: 'Most fun to experiment by yourself.',
     url: 'https://ubg365.github.io/bitlife-life-simulator/play.html',
     thumbnail: 'https://i.ytimg.com/vi/WUTrv--kZtI/maxresdefault.jpg',
-    category: 'Fun'
+    category: 'Single-Player'
   },
   {
     id: 'game-8',
     title: 'Volley Random',
-    description: '',
+    description: 'Fun to play with your friends.',
     url: 'https://mc0825.github.io/g/class-811',
     thumbnail: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSE-WsAiFSXWoWlHvWGYm4xNQysU_kK39VvcRz54bY9a1mdBapeDJne6gevddjqVG_5qhvQZIfZx3POJnNa6sJ-fBbEVW-oUY7-Rv27LwQ&s=10',
     category: 'Fast Paced'
@@ -75,7 +75,7 @@ export const games: Game[] = [
   {
     id: 'game-9',
     title: 'Minecraft Launcher',
-    description: '',
+    description: 'Fun to play with your friends and by yourself.',
     url: 'https://irv77.github.io/AmplerLauncher/',
     thumbnail: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ3i6T2Z3GQtOp-O6IC1qtggAoP3_-vm0RsPw&s',
     category: 'Creative'
@@ -83,7 +83,7 @@ export const games: Game[] = [
   {
     id: 'game-10',
     title: 'OvO',
-    description: '',
+    description: 'Fun to play by yourself.',
     url: 'https://mc0825.github.io/g5/class-456',
     thumbnail: 'https://www.coolmathgames.com/sites/default/files/styles/blog_node_image/public/2021-03/Screen%20Shot%202021-03-19%20at%202.45.51%20PM.png.webp?itok=v01_UVn5',
     category: 'Platformer'
