@@ -151,5 +151,13 @@ export const games: Game[] = [
     url: 'https://script.google.com/macros/s/AKfycbw0mXpD5irGNnKE6brrRG6IqtCBlMhjczxVMt0Jz69D3vngJ2DjxftVuuCuDR2TUlCZ/exec',
     thumbnail: 'https://i.ytimg.com/vi/0YKjFoGxbec/maxresdefault.jpg',
     category: 'Party'
+  },
+  {
+    id: 'game-19',
+    title: 'Wordle Unlimited',
+    description: '',
+    url: 'https://bosorioo.github.io/wordle-unlimited/',
+    thumbnail: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSzXo17pL3S9PjcsR4V-ZPUr8nuQ622Lq0lhA&s',
+    category: 'Skill'
   }
 ];
